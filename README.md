@@ -42,7 +42,7 @@ echo "MONGODB_URI=mongodb+srv://KULLANICI:SIFRE@cluster.mongodb.net/mekanbul" > 
 
 # Sunucuyu başlat
 npm start
-
+---
 
 ```bash
 
