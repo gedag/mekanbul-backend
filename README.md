@@ -16,6 +16,32 @@ Bu proje **Node.js**, **Express.js** ve **MongoDB (Mongoose)** kullanılarak gel
 - Test görselleri ve API akış ekran görüntüleri
 
 ---
+## 🛠 Kurulum
+
+### Gereksinimler
+
+- Node.js (v18+)
+- MongoDB Atlas hesabı
+
+---
+
+### Yerel Kurulum
+
+```bash
+# Repoyu klonla
+git clone https://github.com/KULLANICI_ADIN/mekanbul-backend.git
+cd mekanbul-backend
+
+# Bağımlılıkları yükle
+npm install
+
+# .env dosyasını oluştur
+echo "MONGODB_URI=mongodb+srv://KULLANICI:SIFRE@cluster.mongodb.net/mekanbul" > .env
+
+# Sunucuyu başlat
+npm start
+
+
 Postman Test Sonuçları
 Aşağıda API uç noktaları için yapılan Postman testlerinin ekran görüntüleri bulunmaktadır:
 
