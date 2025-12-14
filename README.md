@@ -1,52 +1,3 @@
-# Mekanbul Backend API
-
-RESTful API ile Mekanbul uygulamasının backend servisi.  
-**Canlı Uygulama (Vercel):** https://mekanbul-backend-raw5.vercel.app/
-
-Bu proje **Node.js**, **Express.js** ve **MongoDB (Mongoose)** kullanılarak geliştirilmiş bir mekan listeleme, detay görüntüleme, yorum ekleme/güncelleme/silme API’sidir.  
-API’ye **Postman / Thunder Client** gibi araçlarla istek atarak çalışabilirsiniz.
-
----
-
-## 📌 Özellikler
-
-- Mekanları listeleme ve detay gösterme  
-- Yorum ekleme / güncelleme / silme  
-- Basit CRUD API yapısı  
-- MongoDB veri tabanı ile veri kaydetme  
-- Test görselleri ve API akış ekran görüntüleri  
-
----
-
-## 🛠 Kurulum
-
-### Gereksinimler
-
-- Node.js (v18+)
-- MongoDB Atlas hesabı
-
----
-
-### Yerel Kurulum
-
-```bash
-# Repoyu klonla
-git clone https://github.com/KULLANICI_ADIN/mekanbul-backend.git
-cd mekanbul-backend
-
-# Bağımlılıkları yükle
-npm install
-
-# .env dosyasını oluştur
-echo "MONGODB_URI=mongodb+srv://KULLANICI:SIFRE@cluster.mongodb.net/mekanbul" > .env
-
-# Sunucuyu başlat
-npm start
----
-
-```bash
-
-
 ## 📸 Postman API Testleri
 
 ### Mekan Ekleme
@@ -75,4 +26,3 @@ npm start
 
 ### Yorum Silme
 ![Delete Comment](tests/DeleteComment.png)
-
