@@ -19,12 +19,31 @@ Bu proje **Node.js**, **Express.js** ve **MongoDB (Mongoose)** kullanılarak gel
 Postman Test Sonuçları
 Aşağıda API uç noktaları için yapılan Postman testlerinin ekran görüntüleri bulunmaktadır:
 
-1. Mekan Ekleme (Add Venue)
-2. Mekanları Listeleme (List Nearby Venues)
-3. Tek Mekan Getir (Get Venue)
-4. Mekan Güncelle (Update Venue)
-5. Mekan Sil (Delete Venue)
-6. Yorum Ekle (Add Comment)
-7. Yorum Getir (Get Comment)
-8. Yorum Güncelle (Update Comment)
-9. Yorum Sil (Delete Comment)
+## 📸 Postman API Testleri
+
+### Mekan Ekleme
+![Add Venue](tests/AddVenue.png)
+
+### Mekanları Listeleme
+![List Nearby Venues](tests/ListNearbyVenues.png)
+
+### Tek Mekan Getirme
+![Get Venue](tests/GetVenue.png)
+
+### Mekan Güncelleme
+![Update Venue](tests/UpdateVenue.png)
+
+### Mekan Silme
+![Delete Venue](tests/DeleteVenue.png)
+
+### Yorum Ekleme
+![Add Comment](tests/AddComment.png)
+
+### Yorum Getirme
+![Get Comment](tests/GetComment.png)
+
+### Yorum Güncelleme
+![Update Comment](tests/UpdateComment.png)
+
+### Yorum Silme
+![Delete Comment](tests/DeleteComment.png)
