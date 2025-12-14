@@ -19,14 +19,35 @@ API’ye **Postman** veya **Thunder Client** ile istek atılarak test edilebilir
 
 ---
 
+## 🔗 API Uç Noktaları (Endpoints)
+
+Aşağıda API tarafından sunulan HTTP metotları ve uç noktalar listelenmiştir.
+
+### Mekan İşlemleri
+| Metot | Uç Nokta (Endpoint) | Açıklama |
+| :--- | :--- | :--- |
+| `GET` | `/api/venues` | Tüm mekanları listele |
+| `POST` | `/api/venues` | Yeni mekan ekle |
+| `GET` | `/api/venues/:venueid` | Mekan detayını getir |
+| `PUT` | `/api/venues/:venueid` | Mekanı güncelle |
+| `DELETE` | `/api/venues/:venueid` | Mekanı sil |
+
+### Yorum İşlemleri
+| Metot | Uç Nokta (Endpoint) | Açıklama |
+| :--- | :--- | :--- |
+| `POST` | `/api/venues/:venueid/comments` | Yorum ekle (mekana) |
+| `GET` | `/api/venues/:venueid/comments/:commentid` | Tekil yorum getir |
+| `PUT` | `/api/venues/:venueid/comments/:commentid` | Yorum güncelle |
+| `DELETE` | `/api/venues/:venueid/comments/:commentid` | Yorum sil |
+
+---
+
 ## 🛠 Kurulum
 
 ### Gereksinimler
 
 - Node.js (v18+)
 - MongoDB Atlas hesabı
-
----
 
 ### Yerel Kurulum
 
