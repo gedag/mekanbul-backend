@@ -45,6 +45,9 @@ npm start
 Postman Test Sonuçları
 Aşağıda API uç noktaları için yapılan Postman testlerinin ekran görüntüleri bulunmaktadır:
 
+
+
+
 ## 📸 Postman API Testleri
 
 ### Mekan Ekleme
@@ -73,3 +76,4 @@ Aşağıda API uç noktaları için yapılan Postman testlerinin ekran görünt�
 
 ### Yorum Silme
 ![Delete Comment](tests/DeleteComment.png)
+
