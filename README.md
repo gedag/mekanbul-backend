@@ -1,9 +1,10 @@
 # Mekanbul Backend API
 
-RESTful API ile Mekanbul uygulamasının backend servisi.
+RESTful API ile Mekanbul uygulamasının backend servisi.  
 **Canlı Uygulama (Vercel):** https://mekanbul-backend-raw5.vercel.app/
 
-Bu proje **Node.js**, **Express.js** ve **MongoDB (Mongoose)** kullanılarak geliştirilmiş bir mekan listeleme, detay görüntüleme, yorum ekleme/güncelleme/silme API’sidir. API’ye **Postman / Thunder Client** gibi araçlarla istek atarak çalışabilirsiniz.
+Bu proje **Node.js**, **Express.js** ve **MongoDB (Mongoose)** kullanılarak geliştirilmiş bir mekan listeleme, detay görüntüleme, yorum ekleme/güncelleme/silme API’sidir.  
+API’ye **Postman / Thunder Client** gibi araçlarla istek atarak çalışabilirsiniz.
 
 ---
 
@@ -13,9 +14,10 @@ Bu proje **Node.js**, **Express.js** ve **MongoDB (Mongoose)** kullanılarak gel
 - Yorum ekleme / güncelleme / silme  
 - Basit CRUD API yapısı  
 - MongoDB veri tabanı ile veri kaydetme  
-- Test görselleri ve API akış ekran görüntüleri
+- Test görselleri ve API akış ekran görüntüleri  
 
 ---
+
 ## 🛠 Kurulum
 
 ### Gereksinimler
@@ -42,10 +44,7 @@ echo "MONGODB_URI=mongodb+srv://KULLANICI:SIFRE@cluster.mongodb.net/mekanbul" > 
 npm start
 
 
-Postman Test Sonuçları
-Aşağıda API uç noktaları için yapılan Postman testlerinin ekran görüntüleri bulunmaktadır:
-
-
+```bash
 
 
 ## 📸 Postman API Testleri
