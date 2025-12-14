@@ -1,9 +1,26 @@
-var express = require('express');
-var router = express.Router();
+var express= require('express');
+var router=express.Router();
+var venueController=require("../app_api/controller/VenueController");
+var commentController=require("../app_api/controller/CommentController");
+router
+.route("/venues")
+.get(venueController.listVenues)
+.post(venueController.addVenue);
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router
+.route("/venues/:venueid")
+.get(venueController.getVenue)
+.put(venueController.updateVenue)
+.delete(venueController.deleteVenue);
 
-module.exports = router;
+router
+.route("/venues/:venueid/comments")
+.post(commentController.addComment)
+
+router
+.route("/venues/:venueid/comments/:commentid")
+.get(commentController.getComment)
+.put(commentController.updateComment)
+.delete(commentController.deleteComment);
+
+module.exports=router;
